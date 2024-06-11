@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header .nav-link {
+    padding: 15px 15px;
+}
+
+.hero {
+    padding: 100px 0;
+}
+
+.hero .btn {
+    margin-top: 20px;
+}
+
+.card {
+    border: none;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.business-activities img {
+    height: 100px;
+    object-fit: contain;
+}
+
+footer {
+    background-color: #f8f9fa; 
+    padding: 20px 0;
+}
+
+.footer-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.list-unstyled a {
+    text-decoration: none;
+    color: #333;
+}
+
+.list-unstyled a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767.98px) {
+    footer .text-md-start {
+        text-align: center !important;
+    }
+
+    footer .text-md-end {
+        text-align: center !important;
+    }
+}
